@@ -1,3 +1,5 @@
+-- psql -U dunder_mifflin -d knex-practice-test -f ./sql-scripts/seed.shopping-list.sql
+
 INSERT INTO shopping_list (name, price, category, checked, date_added)
 VALUES
     ('Fish tricks', 13.10, 'Main',              false,  now() - '21 days'::INTERVAL),

@@ -15,3 +15,4 @@ CREATE TABLE IF NOT EXISTS shopping_list (
   category grocery NOT NULL
 );
 
+-- psql -U dunder_mifflin -d knex-practice-test -f ./sql-scripts/create.shopping-list.sql
